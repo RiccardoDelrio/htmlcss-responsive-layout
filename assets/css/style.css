@@ -14,7 +14,8 @@
 }
 
 main {
-    max-width: 90%;
+    max-width: 1400px;
+    padding: 0 15px;
     margin: auto;
 
 }
@@ -215,6 +216,10 @@ footer {
 
 
 @media screen and (min-width:768px) {
+    main {
+        padding: 0 40px;
+    }
+
     header {
         justify-content: left;
 
@@ -271,11 +276,8 @@ footer {
 
 
 
-@media screen and (min-width:922px) {
-    main {
-        max-width: 80%;
-        margin: auto;
-    }
+@media screen and (min-width:992px) {
+    main {}
 
     #title.row {
         h2 {
