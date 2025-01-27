@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+:root {
+    --gb-primary: #f9951a;
+    --gb-background: #f6f5f3;
+    --gb-darker: #4e3969;
+    --gb-footer: #7c69a4;
+}
