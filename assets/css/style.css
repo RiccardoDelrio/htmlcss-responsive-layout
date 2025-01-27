@@ -256,6 +256,15 @@ footer {
         float: left;
         max-width: 45%;
         padding: 0 20px 0px 0;
+
+    }
+
+    #presentation.container {
+
+        .photo-article {
+
+            margin: 0;
+        }
     }
 
 }
@@ -304,6 +313,7 @@ footer {
 
     }
 
+
     .social {
         .bt-style {
             padding: 10px 30px;
@@ -333,4 +343,24 @@ footer {
 
 
 
+}
+
+@media screen and (min-width:576px) and (max-width: 767px) {
+    #presentation.container {
+
+        .photo-article {
+
+            float: left;
+            max-width: 40%;
+            padding: 0 10px 0px 0;
+            margin: 0;
+        }
+    }
+
+
+    .social {
+        .bt-style {
+            padding: 10px 30px;
+        }
+    }
 }
