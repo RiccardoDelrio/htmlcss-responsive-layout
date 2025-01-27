@@ -162,9 +162,37 @@ body {
 
 }
 
+footer {
+    background-color: var(--gb-footer);
+}
 
+#footer.container {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 0.6rem;
+    color: white;
 
+    .name {
+        font-weight: bold;
+        padding: 8px 0 8px 0;
+    }
 
+    .useful-link {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+    a {
+        padding: 8px;
+        color: white;
+    }
+}
 
 
 
@@ -287,6 +315,19 @@ body {
                 display: inline-block;
 
             }
+        }
+    }
+
+    #footer.container {
+        max-width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .registry {
+            text-align: start;
+
         }
     }
 
